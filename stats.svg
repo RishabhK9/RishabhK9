@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-     font-family="Consolas, 'Courier New', monospace" width="830px" height="295px" font-size="15px">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" font-family="Consolas, 'Courier New', monospace" width="830px" height="295px" font-size="15px">
 <style>
   .title    { fill: #8B5E3C; font-weight: bold; font-size: 20px; }
   .subtitle { fill: #8B5E3C; font-weight: bold; font-size: 17px; }
@@ -38,7 +37,7 @@
 <text x="415" y="65" class="typing t3" text-anchor="middle">Full-stack dev &amp; startup tinkerer</text>
 
 <!-- Tagline -->
-<text x="415" y="88"  class="tagline" text-anchor="middle">Sipping tea 🍵 and turning ideas into software</text>
+<text x="415" y="88" class="tagline" text-anchor="middle">Sipping tea 🍵 and turning ideas into software</text>
 <text x="415" y="103" class="tagline" text-anchor="middle">— from scrappy startups to full-stack products.</text>
 
 <!-- Social badges -->
@@ -59,13 +58,13 @@
 
 <!-- Repos + Stars -->
 <text x="35" y="202">
-  <tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> .... </tspan><tspan class="value" id="repo_data">0</tspan>
-  <tspan class="key" dx="20">Stars</tspan>:<tspan class="cc" id="star_data_dots"> .... </tspan><tspan class="value" id="star_data">0</tspan>
+  <tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> .... </tspan><tspan class="value" id="repo_data">20</tspan>
+  <tspan class="key" dx="20">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ............. </tspan><tspan class="value" id="star_data">6</tspan>
 </text>
 
 <!-- Commits -->
 <text x="35" y="224">
-  <tspan class="key">Commits</tspan>:<tspan class="cc" id="commit_data_dots"> .... </tspan><tspan class="value" id="commit_data">0</tspan>
+  <tspan class="key">Commits</tspan>:<tspan class="cc" id="commit_data_dots"> ................... </tspan><tspan class="value" id="commit_data">345</tspan>
 </text>
 
 <!-- LOC label -->
@@ -73,8 +72,8 @@
 
 <!-- LOC values -->
 <text x="35" y="274">
-  <tspan class="cc" id="loc_data_dots">. </tspan><tspan class="value" id="loc_data">0</tspan>
-  <tspan> ( </tspan><tspan class="addColor" id="loc_add">0</tspan><tspan class="addColor">++</tspan><tspan>, </tspan><tspan class="delColor" id="loc_del">0</tspan><tspan class="delColor">--</tspan><tspan> )</tspan>
+  <tspan class="cc" id="loc_data_dots"> .. </tspan><tspan class="value" id="loc_data">677,010</tspan>
+  <tspan> ( </tspan><tspan class="addColor" id="loc_add">1,168,948</tspan><tspan class="addColor">++</tspan><tspan>, </tspan><tspan class="delColor" id="loc_del">491,938</tspan><tspan class="delColor">--</tspan><tspan> )</tspan>
 </text>
 
 </svg>
