@@ -25,7 +25,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install -r cache/requirements.txt
+        run: pip install requests lxml
 
       - name: Update stats.svg
         env:
