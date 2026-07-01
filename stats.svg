@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-     font-family="Consolas, 'Courier New', monospace" width="600px" height="295px" font-size="15px">
+     font-family="Consolas, 'Courier New', monospace" width="830px" height="295px" font-size="15px">
 <style>
   .title    { fill: #8B5E3C; font-weight: bold; font-size: 20px; }
   .subtitle { fill: #8B5E3C; font-weight: bold; font-size: 17px; }
@@ -27,52 +27,52 @@
   }
 </style>
 
-<rect width="600px" height="295px" fill="#FFF8F0" rx="12" stroke="#E8D9C5" stroke-width="1"/>
+<rect width="830px" height="295px" fill="#FFF8F0" rx="12" stroke="#E8D9C5" stroke-width="1"/>
 
 <!-- Header -->
-<text x="300" y="40" class="title" text-anchor="middle">Hi, I'm Rishabh 🍂</text>
+<text x="415" y="40" class="title" text-anchor="middle">Hi, I'm Rishabh 🍂</text>
 
 <!-- Typing animation -->
-<text x="300" y="65" class="typing t1" text-anchor="middle">CS @ Georgia Tech</text>
-<text x="300" y="65" class="typing t2" text-anchor="middle">Builder of cozy corners of code</text>
-<text x="300" y="65" class="typing t3" text-anchor="middle">Full-stack dev &amp; startup tinkerer</text>
+<text x="415" y="65" class="typing t1" text-anchor="middle">CS @ Georgia Tech</text>
+<text x="415" y="65" class="typing t2" text-anchor="middle">Builder of cozy corners of code</text>
+<text x="415" y="65" class="typing t3" text-anchor="middle">Full-stack dev &amp; startup tinkerer</text>
 
 <!-- Tagline -->
-<text x="300" y="88"  class="tagline" text-anchor="middle">Sipping tea 🍵 and turning ideas into software</text>
-<text x="300" y="103" class="tagline" text-anchor="middle">— from scrappy startups to full-stack products.</text>
+<text x="415" y="88"  class="tagline" text-anchor="middle">Sipping tea 🍵 and turning ideas into software</text>
+<text x="415" y="103" class="tagline" text-anchor="middle">— from scrappy startups to full-stack products.</text>
 
 <!-- Social badges -->
 <a xlink:href="https://www.linkedin.com/in/rishkano" href="https://www.linkedin.com/in/rishkano">
-  <rect x="157" y="116" width="120" height="26" rx="4" fill="#B08968"/>
-  <text x="217" y="134" fill="#FFF8F0" font-size="11px" font-weight="bold" letter-spacing="1" text-anchor="middle">🔗 LINKEDIN</text>
+  <rect x="296" y="116" width="120" height="26" rx="4" fill="#B08968"/>
+  <text x="356" y="134" fill="#FFF8F0" font-size="11px" font-weight="bold" letter-spacing="1" text-anchor="middle">🔗 LINKEDIN</text>
 </a>
 <a xlink:href="https://rishkano.com" href="https://rishkano.com">
-  <rect x="285" y="116" width="110" height="26" rx="4" fill="#8B5E3C"/>
-  <text x="340" y="134" fill="#FFF8F0" font-size="11px" font-weight="bold" letter-spacing="1" text-anchor="middle">🌐 WEBSITE</text>
+  <rect x="424" y="116" width="110" height="26" rx="4" fill="#8B5E3C"/>
+  <text x="479" y="134" fill="#FFF8F0" font-size="11px" font-weight="bold" letter-spacing="1" text-anchor="middle">🌐 WEBSITE</text>
 </a>
 
 <!-- Divider -->
-<line x1="20" y1="156" x2="580" y2="156" class="divider"/>
+<line x1="20" y1="156" x2="810" y2="156" class="divider"/>
 
 <!-- Stats title -->
-<text x="25" y="178" class="subtitle">🍂 GitHub Stats</text>
+<text x="35" y="178" class="subtitle">🍂 GitHub Stats</text>
 
 <!-- Repos + Stars -->
-<text x="25" y="202">
+<text x="35" y="202">
   <tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> .... </tspan><tspan class="value" id="repo_data">0</tspan>
   <tspan class="key" dx="20">Stars</tspan>:<tspan class="cc" id="star_data_dots"> .... </tspan><tspan class="value" id="star_data">0</tspan>
 </text>
 
 <!-- Commits -->
-<text x="25" y="224">
+<text x="35" y="224">
   <tspan class="key">Commits</tspan>:<tspan class="cc" id="commit_data_dots"> .... </tspan><tspan class="value" id="commit_data">0</tspan>
 </text>
 
 <!-- LOC label -->
-<text x="25" y="254" class="key">Lines of Code on GitHub</text>
+<text x="35" y="254" class="key">Lines of Code on GitHub</text>
 
 <!-- LOC values -->
-<text x="25" y="274">
+<text x="35" y="274">
   <tspan class="cc" id="loc_data_dots">. </tspan><tspan class="value" id="loc_data">0</tspan>
   <tspan> ( </tspan><tspan class="addColor" id="loc_add">0</tspan><tspan class="addColor">++</tspan><tspan>, </tspan><tspan class="delColor" id="loc_del">0</tspan><tspan class="delColor">--</tspan><tspan> )</tspan>
 </text>
