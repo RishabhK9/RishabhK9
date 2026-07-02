@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" font-family="Consolas, 'Courier New', monospace" width="830px" height="295px" font-size="15px">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" font-family="Consolas, 'Courier New', monospace" width="830px" height="350px" font-size="15px">
 <style>
   .title    { fill: #8B5E3C; font-weight: bold; font-size: 20px; }
   .subtitle { fill: #8B5E3C; font-weight: bold; font-size: 17px; }
@@ -26,7 +26,7 @@
   }
 </style>
 
-<rect width="830px" height="295px" fill="#FFF8F0" rx="12" stroke="#E8D9C5" stroke-width="1"/>
+<rect width="830px" height="350px" fill="#FFF8F0" rx="12" stroke="#E8D9C5" stroke-width="1"/>
 
 <!-- Header -->
 <text x="415" y="40" class="title" text-anchor="middle">Hi, I'm Rishabh 🍂</text>
@@ -73,6 +73,17 @@
 <text x="35" y="266">
   <tspan class="cc" id="loc_data_dots"> .. </tspan><tspan class="value" id="loc_data">677,009</tspan>
   <tspan> ( </tspan><tspan class="addColor" id="loc_add">1,168,962</tspan><tspan class="addColor">++</tspan><tspan>, </tspan><tspan class="delColor" id="loc_del">491,953</tspan><tspan class="delColor">--</tspan><tspan> )</tspan>
+</text>
+
+<!-- Divider -->
+<line x1="20" y1="280" x2="810" y2="280" class="divider"/>
+
+<!-- AI Usage title -->
+<text x="35" y="302" class="subtitle">🤖 AI Usage</text>
+
+<!-- Claude token count -->
+<text x="35" y="326">
+  <tspan class="key">Tokens Used</tspan>:<tspan class="cc" id="claude_tokens_dots"> ......... </tspan><tspan class="value" id="claude_tokens">86.8M</tspan>
 </text>
 
 </svg>
